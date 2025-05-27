@@ -1,0 +1,23 @@
+* {
+  background-color: #ddd;
+}
+
+.etch-a-sketch-display {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.etch-a-sketch-row {
+  display: flex;
+  flex: auto;
+  margin: 1px 0;
+}
+
+.etch-a-sketch-tile {
+  background-color: #fff;
+  margin: 0 1px;
+  flex: auto;
+}
