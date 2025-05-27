@@ -9,6 +9,7 @@ function createGrid(numberOfRows, numberOfColumns) {
       console.log(`${i}, ${j}`);
       let etchASketchTile = document.createElement("div");
       etchASketchTile.classList.add("etch-a-sketch-tile");
+      etchASketchTile.addEventListener("mouseover", (e) => { e.target.classList.add("colored-tile")});
       etchASketchRow.appendChild(etchASketchTile);
     }
     etchASketchView.appendChild(etchASketchRow);

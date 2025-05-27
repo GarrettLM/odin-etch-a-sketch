@@ -5,8 +5,8 @@
 .etch-a-sketch-display {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   margin: auto;
 }
 
@@ -20,4 +20,8 @@
   background-color: #fff;
   margin: 0 1px;
   flex: auto;
+}
+
+.colored-tile {
+  background-color: #555;
 }
