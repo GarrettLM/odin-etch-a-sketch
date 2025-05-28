@@ -2,6 +2,17 @@
   background-color: #ddd;
 }
 
+.resize-button {
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 120px;
+  height: 50px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 10px;
+  border: black solid 2px;
+}
+
 .etch-a-sketch-display {
   display: flex;
   flex-direction: column;
